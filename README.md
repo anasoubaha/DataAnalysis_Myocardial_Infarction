@@ -16,11 +16,11 @@ REPUL : Lung resistance,
 
 ## Step 1 : univariate and two-dimensional descriptive analysis on the variables of the problem
 
-![img1](images/img1.png)
+![img1](images/img1.PNG)
 
 It is noted that the higher the heart rate, diastolic pressure, pulmonary artery pressure and pulmonary resistance are in a victim the more likely he is to die. On the other hand, the higher the cardiac and systolic indexes, the more the victim concerned is likely to live.
 
-![img2](images/img2.png)
+![img2](images/img2.PNG)
 
 Regarding the correlation we see that "the diastolic pressure" and "pulmonary arterial pressure" are very dependent on each other with a correlation = 0.93 ~ 1 (positively correlate), and we notice the same thing for the dependence (positively and negatively correlate) between “Pulmonary resistance” and most of the variables, which implies that these variables have an important influence on it, since it also has an influence on the other variables.
 
@@ -34,7 +34,7 @@ The objective of PCA is to return to a space of reduced dimensions (2 in most ca
 
 The table below represents the proportion explained by the factors extracted :
 
-![img3](images/img3.png)
+![img3](images/img3.PNG)
 
 We can be satisfied with working with only two axes since the cumulative proportion of the first two factors represents 70.31% of the information. Moreover, the graph of the eigenvalues versus the principal components (below) shows the same thing.
 
@@ -42,7 +42,7 @@ We can be satisfied with working with only two axes since the cumulative proport
 
 The coordinates of the variables are given by the table of eigenvectors below:
 
-![img5](images/img5.png)
+![img5](images/img5.PNG)
 
 Correlation circle (Component pattern) can be visualised using the graph of variable :
 
